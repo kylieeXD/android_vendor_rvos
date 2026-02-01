@@ -15,11 +15,13 @@
 # Product Makefiles
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/beryllium/rvos_beryllium.mk \
-    $(LOCAL_DIR)/ginkgo/rvos_ginkgo.mk\
-    $(LOCAL_DIR)/marble/rvos_marble.mk
+    $(LOCAL_DIR)/ginkgo/rvos_ginkgo.mk \
+    $(LOCAL_DIR)/marble/rvos_marble.mk \
+    $(LOCAL_DIR)/surya/rvos_surya.mk
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
     rvos_beryllium-userdebug \
     rvos_ginkgo-userdebug \
-    rvos_marble-userdebug
+    rvos_marble-userdebug \
+    rvos_surya-userdebug
